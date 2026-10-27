@@ -1,0 +1,9 @@
+Deep Learning Derived Three Dimensional Paraspinal Muscle Measures Are Associated with Spinopelvic Alignment and Clinical Symptoms in Adult Degenerative Scoliosis
+
+This retrospective two-center study developed a lightweight 2D U-Net for automated lumbar paraspinal muscle segmentation and examined associations of three-dimensional muscle measures with spinopelvic alignment and clinical symptoms in adult degenerative scoliosis (ADS). Model development and testing involved 150 patients (120 from Center 1; 30 external cases from Center 2); an independent cohort of 108 patients underwent association analyses. Consecutive computed tomography slices were used to reconstruct the multifidus (MF), erector spinae (ES), and psoas (PS), quantifying fat infiltration (FI) and relative muscle volume (rMV). Dice coefficients ranged from 0.863 to 0.914 internally and 0.850 to 0.902 externally, with pixel accuracy exceeding 0.90. In adjusted regression, MF FI was associated with Cobb angle (B = 64.59, 95% CI 46.77–82.42; β = 0.546), whereas ES rMV and PS rMV were inversely associated with pelvic incidence–lumbar lordosis mismatch (β = −0.521) and pelvic tilt (β = −0.549), respectively (all P < 0.001). MF FI correlated modestly with visual analog scale (VAS) scores (r = 0.297, q = 0.012) and Oswestry Disability Index (ODI) scores (r = 0.317, q = 0.007); ES rMV correlated inversely with ODI (r = −0.242, q = 0.047). These associations warrant longitudinal validation before clinical application.
+
+ U-Net CT Segmentation
+
+This repository accompanies a study of CT-based muscle segmentation using a two-dimensional U-Net.
+
+The complete source code will be made publicly available in this repository within one month after this README is first published. Release details and usage instructions will be added with the source code.
